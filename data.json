@@ -1,0 +1,20 @@
+{
+    "simulation_params": {
+      "domain_size":        0.5,
+      "sim_time":           10,            
+      "turb_kin_energy_k":  0.01,               
+      "dissipation_rate_e": 0.05,              
+      "C_mu_constant":      0.09,
+      "ideal_gas_R":        287.058
+    },
+    "droplet_params": {
+      "diameter_p":         1e-4,
+      "density_p":          800,
+      "number_of_droplets": 1
+    },
+    "gas_params": {
+      "density_gas":        1.0,
+      "viscosity":          1.8e-5
+    }
+  }
+  
